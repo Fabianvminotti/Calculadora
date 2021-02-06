@@ -1,0 +1,86 @@
+.container{
+	display: grid;
+	width: 500px;
+	height: 500px;
+	grid-template-rows: 150px 125px 125px 125px 125px ;
+	grid-template-columns: 125px 125px 125px 125px ;
+	
+
+}
+
+button{
+	width: 115px;
+	height: 115px;
+	margin: 5px;
+	border-width: 5px;
+	border-style: solid;
+	font-family: 'Goldman', cursive;
+	font-size: 60px;
+	background-color: transparent;
+
+}
+
+.display{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	background-color: #74B3CE;
+	color: #172A3A;
+	font-family: 'Goldman', cursive;
+	margin: 5px;
+	font-size: 60px;
+	text-align: right;
+	line-height: 150px;
+}
+
+.but-num{
+	border-color: #004346;
+	color: white;
+	background-color: #004346;
+	overflow: hidden;
+
+}
+
+.but-num:hover{
+	background-color: #172A3A;
+	transition: 0.5s;
+	border-color: #172A3A;
+}
+
+
+
+
+.but-op{
+	border-color: #004346;
+	background-color: white;
+}
+
+.but-op:hover{
+	background-color: #004346;
+	transition: 0.5s;
+	border-color: #004346;
+	color: white;
+}
+
+.but-AC{
+	border-color: #09BC8A;
+	color: white;
+	background-color: #09BC8A;
+}
+
+.but-AC:hover{
+	border-color: #DF2935;
+	color: white;
+	background-color: #DF2935;
+	transition: 0.5s;
+}
+
+.but-igual{
+	border-color: #09BC8A;
+	color: #09BC8A;
+}
+
+.but-igual:hover{
+	background-color:#09BC8A;
+	color: white;
+	transition: 0.5s; 
+}
